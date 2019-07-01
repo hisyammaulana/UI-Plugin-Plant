@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_statistics"
+        android:icon="@drawable/ic_statistics"
+        android:title="Statistics" />
+
+    <item
+        android:id="@+id/navigation_plant"
+        android:icon="@drawable/ic_plant"
+        android:title="Wiki Tanaman" />
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_shop"
+        android:icon="@drawable/ic_shop"
+        android:title="Shop" />
+
+    <item
+        android:id="@+id/navigation_setting"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings" />
+
+</menu>

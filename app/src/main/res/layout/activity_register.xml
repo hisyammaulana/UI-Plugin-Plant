@@ -40,6 +40,7 @@
         android:textColorHint="@color/colorPrimary"
         android:layout_gravity="center"/>
     <Button
+        android:onClick="main"
         android:layout_width="wrap_content"
         android:layout_marginTop="50dp"
         android:layout_height="wrap_content"

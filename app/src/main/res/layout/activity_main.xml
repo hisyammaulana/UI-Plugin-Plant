@@ -18,12 +18,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_behavior="eu.long1.spacetablayout.SpaceTabLayoutBehavior"
-        app:number_of_tabs="five"
-        app:icon_one="@drawable/ic_statistics"
-        app:icon_two="@drawable/ic_shop"
-        app:icon_three="@drawable/ic_home"
-        app:icon_four="@drawable/ic_plant"
-        app:icon_five="@drawable/ic_settings"
-        app:starting_position="three"/>
+        app:number_of_tabs="three"
+        app:icon_one="@drawable/ic_shop"
+        app:icon_two="@drawable/ic_home"
+        app:icon_three="@drawable/ic_plant"
+        app:starting_position="two"
+        app:text_one="Mitra"
+        app:text_two="Beranda"
+        app:text_three="Wiki"/>
 
 </android.support.design.widget.CoordinatorLayout>

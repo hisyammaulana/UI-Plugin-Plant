@@ -20,11 +20,9 @@ public class MainActivity extends AppCompatActivity{
         setContentView(R.layout.activity_main);
 
         List<Fragment> fragmentList = new ArrayList<>();
-        fragmentList.add(new StatisticsFragment());
         fragmentList.add(new ShopFragment());
         fragmentList.add(new HomeFragment());
         fragmentList.add(new WikiFragment());
-        fragmentList.add(new SettingsFragment());
         final CoordinatorLayout coordinatorLayout = (CoordinatorLayout) findViewById(R.id.activity_main);
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);

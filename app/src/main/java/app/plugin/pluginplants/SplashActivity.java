@@ -17,7 +17,7 @@ public class SplashActivity extends AppCompatActivity {
             public void run() {
 
                 //setelah loading maka akan langsung berpindah ke home activity
-                Intent home=new Intent(SplashActivity.this, MainActivity.class);
+                Intent home=new Intent(SplashActivity.this, LoginActivity.class);
                 startActivity(home);
                 finish();
 

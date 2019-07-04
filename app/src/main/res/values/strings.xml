@@ -6,4 +6,10 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cardview_contents">cardview_contents</string>
+
+    <string name="wiki_contents">adalah pupuk yang tersusun dari materi makhluk hidup, seperti pelapukan sisa -sisa tanaman, hewan, dan manusia. Pupuk organik dapat berbentuk padat atau cair yang digunakan untuk memperbaiki sifat fisik, kimia, dan biologi tanah.</string>
+    <string name="wiki_details">Pupuk organik adalah pupuk yang tersusun dari materi makhluk hidup, seperti pelapukan sisa -sisa tanaman, hewan, dan manusia. Pupuk organik dapat berbentuk padat atau cair yang digunakan untuk memperbaiki sifat fisik, kimia, dan biologi tanah.
+        Pupuk organik mengandung banyak bahan organik daripada kadar haranya
+        Sumber bahan organik dapat berupa kompos, pupuk hijau, pupuk kandang, sisa panen (jerami, brangkasan, tongkol jagung, bagas tebu, dan sabut kelapa), limbah ternak, limbah industri yang menggunakan bahan pertanian, dan limbah kota (sampah).</string>
 </resources>

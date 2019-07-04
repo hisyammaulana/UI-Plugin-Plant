@@ -26,8 +26,13 @@ dependencies {
     implementation 'com.android.support:support-vector-drawable:28.0.0'
     implementation 'com.android.support:support-v4:28.0.0'
 
-    // cardview
+    implementation 'me.biubiubiu.justifytext:library:1.1'
 
+    // cardview
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+
+    implementation 'com.synnapps:carouselview:0.1.4'
 
     // spacetab library
     implementation 'eu.long1:spacetablayout:1.0.4'

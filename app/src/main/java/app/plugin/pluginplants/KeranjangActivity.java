@@ -30,7 +30,7 @@ public class KeranjangActivity extends AppCompatActivity {
         backPress.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(KeranjangActivity.this, MainActivity.class);
+                Intent intent = new Intent(KeranjangActivity.this, DetailProdukActivity.class);
                 startActivity(intent);
             }
         });

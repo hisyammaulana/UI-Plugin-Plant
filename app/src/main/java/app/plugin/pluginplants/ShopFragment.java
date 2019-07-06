@@ -14,7 +14,7 @@ import android.widget.ImageView;
 
 public class ShopFragment extends Fragment {
     private CardView card;
-    private ImageView keranjang;
+    private ImageView keranjang,btnSetting;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -26,6 +26,15 @@ public class ShopFragment extends Fragment {
     }
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+
+        btnSetting = view.findViewById(R.id.btnSetting);
+        btnSetting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent =  new Intent(getActivity(), SettingActivity.class);
+                startActivity(intent);
+            }
+        });
 
         keranjang = view.findViewById(R.id.keranjang);
         keranjang.setOnClickListener(new View.OnClickListener() {

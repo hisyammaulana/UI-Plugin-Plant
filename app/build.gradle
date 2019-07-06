@@ -37,6 +37,11 @@ dependencies {
     // spacetab library
     implementation 'eu.long1:spacetablayout:1.0.4'
 
+    /* Image Crop Circle*/
+    implementation 'com.github.florent37:arclayout:1.0.3'
+    implementation 'com.flaviofaria:kenburnsview:1.0.7'
+
+
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'

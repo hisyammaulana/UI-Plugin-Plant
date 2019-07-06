@@ -14,13 +14,14 @@
         android:background="#75C231">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:id="@+id/backPress"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:src="@drawable/back"
             android:layout_marginTop="23dp"
             android:layout_marginLeft="20dp"/>
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Keranjang"
             android:textColor="#fff"
@@ -41,6 +42,7 @@
         card_view:cardBackgroundColor="#fff"
         card_view:cardCornerRadius="20dp">
         <LinearLayout
+            android:padding="10dp"
             android:id="@+id/linearJudul"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -60,12 +62,14 @@
         </LinearLayout>
 
         <LinearLayout
+            android:padding="10dp"
             android:id="@+id/linearBadan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginTop="60dp">
             <ImageView
+                android:padding="10dp"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/pupuk1"/>
@@ -76,12 +80,14 @@
                 android:orientation="vertical"
                 android:layout_marginTop="10dp">
                 <TextView
+                    android:padding="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Pupuk Urea non Subsidi"
                     android:textStyle="bold"
                     android:textSize="18dp"/>
                 <TextView
+                    android:padding="5dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Rp. 10.000"
@@ -117,7 +123,7 @@
                 android:textColor="#ff7f01"/>
         </LinearLayout>
         <Button
-            android:onClick="beli"
+            android:id="@+id/beli"
             android:layout_width="150dp"
             android:layout_height="40dp"
             android:background="@drawable/orange_oval"

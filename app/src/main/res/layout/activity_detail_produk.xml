@@ -6,11 +6,36 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".DetailProdukActivity">
+
+    <LinearLayout
+        android:id="@+id/linearTop"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:background="#75C231">
+
+        <ImageView
+            android:id="@+id/backPress"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/back"
+            android:layout_marginTop="23dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detail Produk"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+
     <ImageView
         android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="190dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="80dp"
         android:src="@drawable/pupuk1"/>
     <android.support.v7.widget.CardView
         android:id="@+id/cardHarga"

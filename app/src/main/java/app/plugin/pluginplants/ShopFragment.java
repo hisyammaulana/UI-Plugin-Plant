@@ -9,19 +9,32 @@ import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 
 public class ShopFragment extends Fragment {
     private CardView card;
+    private ImageView keranjang;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_shop, container, false);
+        View view =  inflater.inflate(R.layout.fragment_shop, container, false);
+        return view;
+
     }
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+
+        keranjang = view.findViewById(R.id.keranjang);
+        keranjang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), KeranjangActivity.class);
+                startActivity(intent);
+            }
+        });
 
         card = view.findViewById(R.id.shopDetail);
         card.setOnClickListener(new View.OnClickListener() {
